@@ -1,0 +1,112 @@
+body{
+  background-color: burlywood;
+}
+
+h1{
+  color: brown;
+}
+
+.container{
+  width: 1500px;
+  
+}
+.image{
+  width: 550px;
+  border: solid black 5px;
+  transform: translateY(-100px);
+
+  
+  
+}
+.quote {
+  margin-right: 25px;
+  margin-left: 900px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-right: 50px;
+  padding-left: 25px;
+  transform: translateY(-360px) translateX(10px);
+  border: solid black 5px;
+  background-color:rgb(249, 248, 246);
+ 
+}
+.Index-header{
+  
+  height: fit-content;
+  width: 200px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-left: 135px;
+
+  margin-right: 25px;
+  
+  border: solid black 5px;
+  background-color: white;
+
+}
+
+.about-me-p{
+   
+    height: fit-content;
+    width: 350px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.see-employee{
+ 
+  height: fit-content;
+  width: 340px;
+  margin-top: 80px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 50px;
+  transform: translateY(-98px);
+  text-decoration-style: solid;
+  font-weight: 300;
+
+}
+
+
+.listside-1{
+
+  height: fit-content;
+  width: fit-content;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-left: 25px;
+  margin-right: 40px;
+  padding-left: 50px;
+  transform: translateY(-98px);
+}
+
+.listside-2{
+
+  height: fit-content;
+  width: fit-content;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-left: 25px;
+  margin-right: 40px;
+  padding-left: 300px;
+  transform: translateY(-198px);
+}
+
+.list-border{
+  transform: translateY(-450px);
+  width: fit-content;
+  height: 300px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+.paragraph-home{
+  transform: translateY(-400px);
+  text-align: center;
+  font-size: large;
+}
