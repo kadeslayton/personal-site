@@ -4,109 +4,157 @@ body{
 
 h1{
   color: brown;
+  text-decoration: underline;
 }
 
-.container{
-  width: 1500px;
-  
-}
-.image{
-  width: 550px;
-  border: solid black 5px;
-  transform: translateY(-100px);
+@media(max-width: 1680px){
 
-  
-  
-}
-.quote {
-  margin-right: 25px;
-  margin-left: 900px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  padding-right: 50px;
-  padding-left: 25px;
-  transform: translateY(-360px) translateX(10px);
-  border: solid black 5px;
-  background-color:rgb(249, 248, 246);
- 
-}
-.Index-header{
-  
-  height: fit-content;
-  width: 200px;
-  margin-top: 80px;
-  margin-bottom: 20px;
-  margin-left: 135px;
+  .nav{
+    min-width: 100%;
+    max-height: 20px;
+    margin: 0px;
+    padding: 0px;
+  }
 
-  margin-right: 25px;
+  .image{
+    width: 550px;
+    border: solid black 5px;
+    transform: translateY(100px);
   
-  border: solid black 5px;
-  background-color: white;
+    
+    
+  }
+  .sub-index{
+    text-align: center;
+    color: brown;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .quote {
+    color: brown;
+    margin-right: 75px;
+    margin-left: 950px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-right: 0px;
+    padding-left: 10px;
+    transform: translateY(-160px) translateX(20px);
+    border: solid black 5px;
+    background-color:bisque;
+    min-width: 420px;
+    max-width: 420px;
 
-}
-
-.about-me-p{
    
+  }
+  .Index-header{
+    text-decoration: underline;
+    text-align: center;
     height: fit-content;
-    width: 350px;
-    margin-top: 80px;
-    margin-bottom: 20px;
+    width: 250px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    padding: 40px;
+    padding-bottom: 0px;
+    margin-right: 0px;
+    color: brown;
+    
+  }
+  
+  .about-me-p{
+     
+      height: fit-content;
+      width: 350px;
+      margin-top: 80px;
+      margin-bottom: 20px;
+      margin-left: 25px;
+      margin-right: 25px;
+      padding-left: 50px;
+      padding-top: 50px;
+  }
+  
+  .see-employee{
+    color: brown;
+    text-decoration: underline;
+   margin: 0;
+   padding: 0;
+    transform: translate(80px, 40px);
+
+    text-decoration-style: solid;
+    font-weight: 300;
+  
+  }
+  
+  
+  .listside-1{
+  
+    height: fit-content;
+    width: fit-content;
+    margin-top: 25px;
+    margin-bottom: 0px;
     margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 40px;
     padding-left: 50px;
-    padding-top: 50px;
+    transform: translateY(41px);
+
+   
+  }
+  
+  .listside-2{
+  
+    height: fit-content;
+    width: fit-content;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 40px;
+    padding-left: 300px;
+    transform: translateY(-58px);
+    
+  }
+  
+  .block3{
+    transform: translateY(-450px);
+    width: 480px;
+    height: 350px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: bisque;
+  }
+  
+  .paragraph-home{
+    transform: translateY(-400px);
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    
+  }
+  
+  .grid-container{
+    display: grid;
+    grid-area: auto;
+    
+  
+  }
+  .image2{
+    width: 400px;
+
+  }
+  .image2-div{
+    float:right;
+    transform: translateY(30px);
+    margin: 5px;
+    margin-right: 70px;
+    border: solid black 5px;
+    order: initial;
+    padding-bottom: 0;
+    height: 400px;
+  }
+  .big-body{
+    float: left;
+    width: 60%;
+  }
 }
+  
 
-.see-employee{
- 
-  height: fit-content;
-  width: 340px;
-  margin-top: 80px;
-  margin-bottom: 15px;
-  margin-left: 25px;
-  margin-right: 25px;
-  padding-left: 50px;
-  transform: translateY(-98px);
-  text-decoration-style: solid;
-  font-weight: 300;
-
-}
-
-
-.listside-1{
-
-  height: fit-content;
-  width: fit-content;
-  margin-top: 25px;
-  margin-bottom: 0px;
-  margin-left: 25px;
-  margin-right: 40px;
-  padding-left: 50px;
-  transform: translateY(-98px);
-}
-
-.listside-2{
-
-  height: fit-content;
-  width: fit-content;
-  margin-top: 25px;
-  margin-bottom: 0px;
-  margin-left: 25px;
-  margin-right: 40px;
-  padding-left: 300px;
-  transform: translateY(-198px);
-}
-
-.list-border{
-  transform: translateY(-450px);
-  width: fit-content;
-  height: 300px;
-  margin-bottom: 0px;
-  margin-top: 50px;
-}
-
-.paragraph-home{
-  transform: translateY(-400px);
-  text-align: center;
-  font-size: large;
-}
